@@ -2,23 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>PDF Viewer</title>
+  <title>Download PDFs</title>
   <style>
     body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
+      font-family: Arial, sans-serif;
+      padding: 2rem;
     }
-    iframe {
-      flex: 1;
-      width: 100%;
-      border: none;
+    a {
+      display: block;
+      margin: 1rem 0;
+      font-size: 1.2rem;
+      color: #0066cc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <!-- Replace 'your-file.pdf' with the actual path to your PDF -->
-  <iframe src="chapter 1.pdf" title="PDF File"></iframe>
+
+  <h1>Available PDF Downloads</h1>
+
+  <!-- Link to PDF 1 -->
+  <a href="chapter 1.pdf" download>📄 Download PDF 1</a>
+
+  <!-- Link to PDF 2 -->
+  <a href="chapter 2.pdf" download>📄 Download PDF 2</a>
+
 </body>
 </html>
